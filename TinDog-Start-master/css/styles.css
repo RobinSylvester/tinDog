@@ -1,0 +1,195 @@
+#title{
+  background-color: #ff4c68;
+}
+#features{
+
+
+  background-color: #f4f4f4;
+  position:relative;
+  z-index: 1;
+  height: 257px;
+
+
+}
+#testimonials{
+
+  text-align: center;
+  color:#fff;
+  background-color: #ef8172;
+  position: relative;
+}
+#press{
+  background-color: #ef8172;
+
+}
+#pricing{
+  padding:100px;
+  text-align:center;
+  background-color: #fff;
+
+}
+#cta{
+  text-align: center;
+  background-color:#ff4c68;
+  font-family: 'Montserrat-black', sans-serif;
+  padding-top: 10px;
+  font-size: 3rem;
+
+
+
+}
+#footer{
+  text-align: center;
+  padding: 1% 1% 0 1%;
+  line-height: 0;
+}
+body{
+  font-family: "Montserrat";
+
+}
+h1{
+font-family: 'Montserrat-black', sans-serif;
+font-size: 3rem;
+line-height: 1.5;
+font-weight: 900;
+
+}
+h2{
+
+  line-height: 4rem;
+  font-weight: bold;
+
+}
+p{
+  color: #8f8f8f;
+}
+
+.colored-section
+{
+    color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-family: "Ubuntu";
+
+}
+.iphone{
+
+  transform: rotate(20deg);
+  width:60%;
+  position:absolute;
+  z-index: 0;
+
+
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight:300;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.intro{
+  padding-top: 59px;
+padding-left: 20%;
+text-align: center;
+
+
+
+}
+
+
+.fas{
+
+  color:#ef8172;
+  margin-bottom: 20px;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+.test-image{
+  width:30%;
+  border-radius:100%;
+  margin:15px;
+}
+.press-img{
+  width:23%;
+  padding: 10px;
+
+}
+.presi{
+  margin-left: 120px;
+  padding-bottom: 100px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.card
+{
+  text-align: center;
+  background-color: #f4efd3;
+}
+.pricol
+{
+  padding: 5% 3%;
+}
+.download-button2{
+  margin: 0 0 1% 0;
+}
+.fa-twitter-square
+{
+  color: #ff971d;
+  padding-right: 2px;
+  padding-bottom: 1px;
+}
+.fa-facebook-square,.fa-instagram,.fa-envelope
+{
+  color: #ff971d;
+    padding-right:2px;
+    padding-bottom: 1px;
+}
+
+
+@media (max-width:990px)
+{
+  .iphone{
+
+    transform: rotate(0);
+
+    position:static;
+    z-index: 0;
+
+
+  }
+  #features{
+
+
+    background-color: #f4f4f4;
+    position:relative;
+    z-index: 1;
+    height: 600px;
+
+
+  }
+  #Title{
+    text-align: center;
+  }
+  .intro{
+    padding-top:1%;
+  padding-left: 20%;
+
+
+
+
+  }
+}
